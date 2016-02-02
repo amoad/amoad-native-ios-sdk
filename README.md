@@ -17,7 +17,7 @@ iOS 6.0 or later
 
 ## Installing
 
-[ZIPをダウンロード](https://github.com/amoad/amoad-native-ios-sdk/archive/master.zip) *Cocoa Podsに対応予定*
+[ZIPをダウンロード](https://github.com/amoad/amoad-native-ios-sdk/archive/master.zip)
 
 ## Usage
 
