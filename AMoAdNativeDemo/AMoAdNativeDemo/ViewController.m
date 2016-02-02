@@ -29,7 +29,7 @@ static NSString *const kTag = @"Ad01";
   [AMoAdLogger sharedLogger].trace = YES;
 
   // [SDK] 表示位置とサイズを指定する
-  CGRect frame = CGRectMake(20, 100, 300, 250);
+  CGRect frame = CGRectMake(20, 100, 140, 120);
 
   // [SDK] 広告をロードする
   [AMoAdNative loadWithSid:kSid tag:kTag frame:frame completion:^(NSString *sid, NSString *tag, AMoAdResult result, NSDictionary *serverInfo) {
@@ -44,7 +44,11 @@ static NSString *const kTag = @"Ad01";
         NSLog(@"広告取得失敗（sid=%@, tag=%@, serverInfo=%@）", sid, tag, serverInfo);
         break;
     }
+#if 1
+  } option:@{ @"border" : @"dotted 2px #0000ff"}];  // DEBUG 枠線が表示されます
+#else
   }];
+#endif
 
   // [SDK] 広告Viewを取得してaddする
   [self.view addSubview:[AMoAdNative viewWithSid:kSid tag:kTag]];
