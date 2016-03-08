@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "AMoAdNative.h" // [SDK] ネイティブHTML広告
-#import "AMoAdLogger.h" // [SDK] ロガー
+#import "AMoAdNative.h"   // [SDK] ネイティブHTML広告
+#import "AMoAdRequest.h"  // [SDL] ネットワーク設定
+#import "AMoAdLogger.h"   // [SDK] ロガー
 
 @interface ViewController ()
 
@@ -28,6 +29,12 @@ static NSString *const kTag = @"Ad01";
   // [SDK] トレース出力の設定
   [AMoAdLogger sharedLogger].trace = YES;
 
+  // [SDK] タイムアウト時間を設定する
+  [AMoAdRequest setTimeoutInterval:5.0];
+
+  // [SDK] SSL通信の使用を設定する（デフォルト：NO）※ YESにしてもATS抑制の設定は必要です
+//  [AMoAdRequest setSsl:YES];
+  
   // [SDK] 表示位置とサイズを指定する
   CGRect frame = CGRectMake(20, 100, 140, 120);
 

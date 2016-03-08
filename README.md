@@ -43,10 +43,14 @@ loadメソッドに以下のJSON文字列を渡すことで、広告の枠線を
 
 [AMoAd Native API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdNative.h)
 
-[AMoAd Logger API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdLogger.h)
+[AMoAd Request API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdRequest.h) ... ネットワーク設定
+
+[AMoAd Logger API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdLogger.h) ... ログ出力設定
 
 ## Project Settings
 
 ### 設定例
+
+[ATS (App Transport Security) を抑制する](https://github.com/amoad/amoad-ios-sdk/blob/master/Documents/Install/Install.asciidoc#ats-app-transport-security-を抑制する)
 
 <img width="640" src="docs/res/ScreenShot04.png">
