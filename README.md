@@ -43,8 +43,6 @@ loadメソッドに以下のJSON文字列を渡すことで、広告の枠線を
 
 [AMoAd Native API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdNative.h)
 
-[AMoAd Request API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdRequest.h) ... ネットワーク設定
-
 [AMoAd Logger API](AMoAdNativeDemo/AMoAdNativeDemo/AMoAdSdk/AMoAdLogger.h) ... ログ出力設定
 
 ## Project Settings
