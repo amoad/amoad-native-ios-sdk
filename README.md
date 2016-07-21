@@ -13,7 +13,7 @@
 
 ## Requirements
 
-iOS 6.0 or later
+iOS 7.0 or later
 
 ## Installing
 
