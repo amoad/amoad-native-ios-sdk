@@ -54,3 +54,4 @@ loadメソッドに以下のJSON文字列を渡すことで、広告の枠線を
 [ATS (App Transport Security) を抑制する](https://github.com/amoad/amoad-ios-sdk/wiki/Install#34-ats-app-transport-security-を抑制する)
 
 <img width="640" src="docs/res/ScreenShot04.png">
+
