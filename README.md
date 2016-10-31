@@ -2,7 +2,7 @@
 <img width="172" height="61" src="http://www.amoad.com/images/logo.png">
 </div>
 
-# AMoAd Native Demo for iOS ver 4.10.0
+# AMoAd Native Demo for iOS ver 4.11.0
 
 <img width="160" height="284" src="docs/res/ScreenShot01.png">
 <img width="320" src="docs/res/ScreenShot03.png">
@@ -51,6 +51,6 @@ loadメソッドに以下のJSON文字列を渡すことで、広告の枠線を
 
 ### 設定例
 
-[ATS (App Transport Security) を抑制する](https://github.com/amoad/amoad-ios-sdk/wiki/Install#34-ats-app-transport-security-を抑制する)
+ATS (App Transport Security) に対応しました。ATSを抑制する設定は不要になりました。
 
 <img width="640" src="docs/res/ScreenShot04.png">
