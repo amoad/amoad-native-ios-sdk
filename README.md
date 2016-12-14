@@ -54,4 +54,3 @@ loadメソッドに以下のJSON文字列を渡すことで、広告の枠線を
 ATS (App Transport Security) に対応しました。ATSを抑制する設定は不要になりました。
 
 <img width="640" src="docs/res/ScreenShot04.png">
-
