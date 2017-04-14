@@ -17,7 +17,7 @@ iOS 8.0 or later
 
 ## Installing
 
-[ZIPをダウンロード](https://github.com/amoad/amoad-native-ios-sdk/archive/master.zip)
+[ZIPをダウンロード](https://github.com/amoad/amoad-native-ios-sdk/archive/v4.12.zip)
 
 ## Usage
 
